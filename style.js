@@ -26,7 +26,7 @@ function displayData(items) {
                         <h4>${product.title}</h4>
                         <h5>${product.rating ? product.rating.rate : 'No rating'}</h5>
                     </span>
-                    <h5>Price: $${product.price}</h5>
+                    <h5>Price: ${product.price}</h5>
                     <button>Buy Now</button>
                 </div>
             </div>`;
